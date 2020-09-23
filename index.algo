@@ -1,0 +1,26 @@
+ALGORITHM 
+VAR
+s,i,n,e,w,j,v,1,k: INTEGER
+ch : STRING
+
+BEGIN
+Write ("ch")
+Read ("ch")
+REPEAT
+s:=1;
+i:=1;
+IF (ch[i]<>".") THEN
+    i:=i++;
+    s:=s++;
+END_IF
+e:= position(" ",ch);
+w:=0
+FOR j FROM 2 TO n   DO
+    si (ch[k]in ("a","e","i","o","u","y"))
+THEN
+v1:=v1++
+END_FOR
+write("length sentence=",n);
+write("number of words=");
+write("number of vowels",v1);
+END
